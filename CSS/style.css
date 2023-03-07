@@ -1,0 +1,37 @@
+/* RESETS */
+* {
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/* FONT Implementation */
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../fonts/ubuntu.ttf");
+}
+/* GENERAL STYLE */
+body {
+  background-color: black;
+  color: green;
+  text-align: center;
+  font-size: 24px;
+}
+body a {
+  color: inherit; /* so it won't make the links blue */
+}
+body img {
+  max-height: 100px;
+  max-width: 30vw;
+  margin: 5vh 0;
+}
+body p {
+  font-family: "Ubuntu";
+}
+body .double {
+  font-size: 2em;
+  margin: 5vh 0;
+  color: lime;
+}/*# sourceMappingURL=style.css.map */
